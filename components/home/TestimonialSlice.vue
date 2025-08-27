@@ -78,17 +78,16 @@ function handleImageError(event) {
 
                 <!-- Rating Stars -->
                 <div class="flex justify-center mb-4 relative z-[50]">
-                  <div class="rating rating-sm relative z-[50]">
-                    <template v-for="star in 5" :key="star">
-                      <i
-                        :class="[
-                          'fas fa-star text-lg mx-1 opacity-100',
-                          star <= testimonial.rating
-                            ? 'text-yellow-400'
-                            : 'text-gray-600',
-                        ]"
-                      ></i>
-                    </template>
+                  <div class="rating rating-sm">
+                    <input
+                      v-for="star in 5"
+                      :key="star"
+                      type="radio"
+                      :value="star"
+                      :checked="testimonial.rating === star"
+                      class="mask mask-star bg-yellow-400"
+                      disabled
+                    />
                   </div>
                 </div>
 

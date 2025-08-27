@@ -21,7 +21,7 @@ const { data: trainersResponse } = await useApiFetch("trainers?limit=4");
 const plans = ref(plansResponse.value?.data || []);
 const testimonials = ref(testimonialsResponse.value?.data || []);
 const trainers = ref(trainersResponse.value?.data || []);
-
+console.log(testimonials);
 useCustomSeoMeta({
   title: "GymTech - Trung tâm thể hình hiện đại",
   description:
