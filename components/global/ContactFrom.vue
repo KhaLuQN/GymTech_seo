@@ -28,7 +28,7 @@
             <div>
               <h3 class="font-bold text-white text-xl mb-1">Địa chỉ</h3>
               <p class="text-red-100 text-lg">
-                123 Đường Fitness, Quận 1, TP.HCM
+                Nguyễn Huy Tưởng, Hòa Minh, Liên Chiểu, Đà Nẵng
               </p>
             </div>
           </div>
@@ -40,7 +40,7 @@
             </div>
             <div>
               <h3 class="font-bold text-white text-xl mb-1">Điện thoại</h3>
-              <p class="text-red-100 text-lg">0123 456 789</p>
+              <p class="text-red-100 text-lg">0386550651</p>
             </div>
           </div>
           <div class="flex items-start space-x-4">

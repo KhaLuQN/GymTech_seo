@@ -14,15 +14,14 @@
           </a>
         </li>
         <li>
-          <a href="#" class="text-white hover:text-red-400">
+          <a
+            href="https://www.facebook.com/khalu2807"
+            class="text-white hover:text-red-400"
+          >
             <i class="fab fa-facebook-messenger"></i> Messenger
           </a>
         </li>
-        <li>
-          <a href="#" class="text-white hover:text-red-400">
-            <i class="fab fa-telegram"></i> Telegram
-          </a>
-        </li>
+
         <li>
           <NuxtLink to="/lien-he#ban-do" class="text-white hover:text-red-400">
             <i class="fas fa-map-marker-alt"></i> Chỉ đường

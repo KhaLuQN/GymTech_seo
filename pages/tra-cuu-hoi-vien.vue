@@ -8,7 +8,7 @@
         <h1
           class="text-5xl md:text-7xl font-extrabold mb-6 text-red-500 custom-hero-text-shadow leading-tight"
         >
-          <i class="fas fa-newspaper mr-4 text-red-600"></i>Tra cứu Hội Viến
+          <i class="fas fa-newspaper mr-4 text-red-600"></i>Tra cứu Hội Viên
         </h1>
         <p class="text-xl md:text-2xl text-gray-300 mb-10 max-w-xl mx-auto">
           nhapaj email của bạn để nhận link truy cập thông tin cá nhân

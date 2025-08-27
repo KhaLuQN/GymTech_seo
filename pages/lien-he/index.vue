@@ -58,7 +58,7 @@
                   </div>
                   <div>
                     <h4 class="text-red-300 font-semibold mb-1">Điện thoại</h4>
-                    <p class="text-gray-300">0123 456 789</p>
+                    <p class="text-gray-300">0386550651</p>
                   </div>
                 </div>
 
@@ -106,7 +106,7 @@
             <!-- Quick Actions -->
             <div class="grid grid-cols-2 gap-4">
               <a
-                href="tel:0123456789"
+                href="tel:0386550651"
                 class="btn btn-outline btn-error hover:btn-error text-white"
               >
                 <i class="fas fa-phone mr-2"></i>

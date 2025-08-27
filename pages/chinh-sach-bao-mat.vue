@@ -16,7 +16,7 @@
       </p>
     </div>
   </section>
-  <div class="container mx-auto px-4 py-12 text-white">
+  <div class="w-full bg-black mx-auto px-4 py-12 text-white">
     <h1 class="text-3xl font-bold mb-6">Chính sách bảo mật</h1>
     <p class="mb-4">
       Tại Alpha Gym, chúng tôi cam kết bảo mật thông tin cá nhân của bạn khi sử
