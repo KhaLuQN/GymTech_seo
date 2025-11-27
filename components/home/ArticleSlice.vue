@@ -84,14 +84,18 @@
             >
               {{ (article.category_name || "").toUpperCase() }}
             </div>
-            <h3
-              class="card-title text-white text-xl font-bold mb-2 line-clamp-2 group-hover:text-red-400 transition-colors duration-300"
+            <NuxtLink
+              :to="`/bai-viet/${article.slug}`"
+              class="card-title text-white text-xl font-bold mb-2 line-clamp-2 group-hover:text-red-400 transition-colors duration-300 block"
             >
               {{ article.title }}
-            </h3>
-            <p class="text-gray-400 text-sm line-clamp-3 mb-4">
-              {{ article.excerpt }}
-            </p>
+            </NuxtLink>
+
+            <div
+              class="text-gray-400 text-sm line-clamp-3 mb-4"
+              v-html="article.excerpt"
+            ></div>
+
             <div
               class="flex justify-between items-center mt-auto pt-4 border-t border-gray-700/50"
             >

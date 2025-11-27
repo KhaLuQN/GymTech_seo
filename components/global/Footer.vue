@@ -4,7 +4,7 @@
       <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <h3 class="text-2xl font-bold text-gradient mb-4">
-            <i class="fas fa-dumbbell mr-2"></i>Alpha Gym
+            <i class="fas fa-dumbbell mr-2"></i> GymTech
           </h3>
           <p class="text-gray-300 mb-4">
             Phòng tập gym hàng đầu với thiết bị hiện đại và đội ngũ huấn luyện
